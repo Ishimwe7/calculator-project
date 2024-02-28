@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+div #calcultaor{
+    margin: 200px;
+    position: relative;
+}
+
+ h1 #header{
+    text-align: center;
+}
+#main-cal{
+    position: relative;
+    margin: 20px auto auto auto;
+}
+
+div #buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#numbers-btns button{
+    font-size: x-large;
+    max-width: 200px;
+}
+.signs button{
+    font-size: xx-large;
+
+}
+button{
+    width: 35px;
+    height: 35px;
+}
+input{
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+}
