@@ -4,42 +4,45 @@
     box-sizing: border-box;
 }
 
-body{
+ #Calculator{
     margin: auto;
-}
-div #calcultaor{
-    margin: 200px;
-    position: relative;
+    margin-top: 100px;
+    width: 500px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+
 }
 
- h1 #header{
+ #header{
     text-align: center;
-}
-#main-cal{
-    position: relative;
-    margin: 20px auto auto auto;
-}
+ }
 
 div #buttons{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+    justify-content: center;
 }
 
-#numbers-btns button{
-    font-size: x-large;
-    max-width: 200px;
+#numbers-btns{
+    width: 250px;
+    height: 100px;
+    margin: 2px;
 }
-.signs button{
-    font-size: xx-large;
-
+.signs{
+    width: 150px;
+    height: 100px;
+    margin: 2px;
 }
 button{
     width: 35px;
     height: 35px;
+    margin: 3px;
+    font-size: x-large;
 }
+
 input{
     margin: 20px;
     width: 250px;
     height: 50px;
+    padding: 20px;
 }
